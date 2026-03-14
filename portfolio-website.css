@@ -1,58 +1,81 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
     margin:0;
-    background:#cacaeb;
+    background:#F1F5F9;
 }
 
+/* Header */
 header{
-    background:#0f0f4f;
+    background:#0F172A;
     color:white;
     text-align:center;
-    padding:20px;
+    padding:25px;
 }
 
+/* Navigation bar */
 nav{
-    background:#101e5e;
+    background:#1E293B;
     text-align:center;
-    padding:10px;
+    padding:12px;
 }
 
 nav a{
     color:white;
-    margin:10px;
+    margin:15px;
     text-decoration:none;
     font-weight:bold;
+    font-size:16px;
 }
 
 nav a:hover{
-    color:yellow;
+    color:#38BDF8;
 }
 
+/* Sections */
 section{
     padding:30px;
-    margin:20px;
+    margin:25px;
     background:white;
-    border-radius:5px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Headings */
 h2{
-    color:#333;
+    color:#0F172A;
 }
 
+/* Skills list */
 ul{
     list-style:square;
+    padding-left:20px;
 }
 
+/* Project cards */
 .project{
-    background:#eee;
-    padding:10px;
-    margin-top:10px;
-    border-radius:5px;
+    background:#E2E8F0;
+    padding:15px;
+    margin-top:15px;
+    border-radius:6px;
 }
 
+.project:hover{
+    background:#DBEAFE;
+}
+
+/* Certificates */
+.certificate{
+    background:#E2E8F0;
+    padding:15px;
+    margin-top:15px;
+    border-radius:6px;
+}
+
+/* Footer */
 footer{
     text-align:center;
-    background:#333;
+    background:#0F172A;
     color:white;
     padding:15px;
+    margin-top:20px;
 }
